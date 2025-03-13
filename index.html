@@ -32,8 +32,6 @@
             font-weight: bold;
             padding: 1rem;
             margin: .1rem;
-            border: 1px solid #c2c2c2;
-            box-shadow: 0.5rem .5rem .3rem .01rem #c2c2c2;
             width: 5em;
             height: 3rem;
         }
@@ -49,6 +47,25 @@
         .sandwich-menu {
             flex-grow: 1;
         }
+
+        .painel {
+            height: 30rem;
+            display: flex;
+        }
+
+        .menu-lateral {
+            border: 3px solid green;
+            padding: 1rem;
+            margin: .1rem;
+            flex-grow: 3;
+        }
+
+        .parte-principal {
+            border: 3px solid green;
+            padding: 1rem;
+            margin: .1rem;
+            flex-grow: 11;
+        }
     </style>
 </head>
 
@@ -58,6 +75,10 @@
         <div class="item titulo-do-site">Título do Site</div>
         <div class="item sandwich-menu">Menu</div>
     </header>
+    <section class="painel">
+        <nav class="menu-lateral">Navegação</nav>
+        <main class="parte-principal">Parte principal do site</main>
+    </section>
 </body>
 
 </html>
